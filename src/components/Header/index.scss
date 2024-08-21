@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 48px;
+  font-size: 18px;
+  > span {
+    line-height: 34px;
+    color: rgba(102,170,238,0.91);
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 525px) {
+  header {
+    flex-direction: row;
+    gap: 10px;
+
+    > *:nth-child(2) {
+      align-self: flex-end;
+    }
+  }
+}

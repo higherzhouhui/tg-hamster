@@ -1,0 +1,31 @@
+.begin-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: var(--palette-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  span {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    opacity: 0;
+    animation: fadeIn forwards 0.2s;
+  }
+  img {
+    max-width: 70vw;
+    object-fit: contain;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

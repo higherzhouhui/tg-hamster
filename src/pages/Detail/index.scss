@@ -1,0 +1,95 @@
+.adm-list-item {
+  background: rgba($color: #000000, $alpha: 1);
+}
+
+.adm-list-default .adm-list-body {
+  border: none;
+}
+
+.adm-list-item-content {
+  border-top-color: #312d2d;
+}
+
+.frens-detail-page {
+  padding: 18px 12px;
+
+  .frens-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 1rem;
+    font-weight: bold;
+
+    span {
+      font-family: 'number';
+
+    }
+  }
+
+  .icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    min-width: 32px;
+  }
+
+  .frens-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+
+    .frens-detail-left {
+      .score {
+        color: var(--highColor);
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'number';
+      }
+
+      .frens-detail-time {
+        font-size: 1rem;
+        opacity: 0.8;
+      }
+    }
+
+    .frens-detail-right {
+      font-size: 1rem;
+      text-align: right;
+
+      .by-user {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        opacity: 0.9;
+      }
+
+      .frens-detail-name {
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .user-icon {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 12px;
+      }
+
+      .type {
+        font-size: 1rem;
+        margin-top: 4px;
+      }
+    }
+  }
+}

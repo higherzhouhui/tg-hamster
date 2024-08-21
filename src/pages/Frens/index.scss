@@ -1,0 +1,89 @@
+.friends {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 1.5rem;
+  overflow: auto;
+  color: #fff;
+  padding-bottom: 6rem;
+  .friends-title {
+    text-align: center;
+    margin: 1rem 0;
+    font-family: Bold;
+    font-size: 2.5rem;
+  }
+  .tap-desc {
+    font-family: Bold;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .logo {
+    margin: 2rem 0;
+    svg {
+      width: 170px;
+      height: 140px;
+    }
+  }
+  .friends-list-wrapper {
+    width: 100%;
+    .friends-list-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+    .friends-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .icon {
+      border-radius: 50%;
+      font-family: Bold;
+      margin-right: 1rem;
+      text-transform: uppercase;
+      min-width: 42px;
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .name {
+      font-weight: bold;
+      font-size: 1.3rem;
+      max-width: 160px;
+      overflow: hidden;
+      flex: 1;
+      text-overflow: ellipsis;
+    }
+    .fl-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+    .fl-right {
+      font-family: Bold;
+      font-size: 1.3rem;
+       min-width: fit-content;
+       padding-left: 0.5rem;
+    }
+  }
+  .invite-btn {
+    position: fixed;
+    bottom: 72px;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    background: #000;
+    display: flex;
+    gap: 4px;
+    .copy {
+      font-weight: bold;
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

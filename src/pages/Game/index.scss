@@ -1,0 +1,33 @@
+.gamepage-container {
+  padding: 12px 12px 60px 12px;
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .intros {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    .intro-list {
+      flex: 1;
+      border: 1px solid #222;
+      border-radius: 4px;
+      padding: 0 4px 12px 4px;
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        color: #000;
+        justify-content: center;
+        padding: 4px 0;
+        border-radius: 6px;
+        margin-top: 12px;
+        gap: 4px;
+      }
+    }
+  }
+}
